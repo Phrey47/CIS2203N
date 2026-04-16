@@ -7,6 +7,15 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class CalculatorActivity : AppCompatActivity() {
+
+    var currentInput = ""
+    var firstOperand = 0.0
+    var currentOperator = ""
+
+    fun addNumbers(a: Double, b: Double): Double {
+        return a + b
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
