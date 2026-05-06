@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Student Calculator</string>
+    <string name="login_prompt">Enter Student ID</string>
+    <string name="login_button">Login</string>
+    <string name="calc_clear">C</string>
+    <string name="calc_equals">=</string>
+</resources>
